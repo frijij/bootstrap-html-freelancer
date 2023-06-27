@@ -48,16 +48,16 @@
                     <!-- titolo -->
                     <h2 class="p-3">PORTFOLIO</h2>
                 </div>
-                </div>
-                <div class="row gy-5">
+            </div>
+            <div class="row gy-5">
                 <div class="col-4">
                     <!-- CARD 1 -->
                     <div class="card">
                         <img src="./img/portfolio/cabin.png" alt="Immagine di una capanna">
                         <div class="card-body text-center">
                             <h5 class="card-title">Cabin Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -67,8 +67,8 @@
                         <img src="./img/portfolio/cake.png" alt="Immagine di una fetta di torta">
                         <div class="card-body text-center">
                             <h5 class="card-title">Cake Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                         <img src="./img/portfolio/circus.png" alt="Immagine di un tendone da circo">
                         <div class="card-body text-center">
                             <h5 class="card-title">Circus Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                         <img src="./img/portfolio/game.png" alt="Immagine di un joystick">
                         <div class="card-body text-center">
                             <h5 class="card-title">Game Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
                         <img src="./img/portfolio/safe.png" alt="Immagine di una cassaforte">
                         <div class="card-body text-center">
                             <h5 class="card-title">Safe Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -111,17 +111,64 @@
                         <img src="./img/portfolio/submarine.png" alt="Immagine di un sottomarino">
                         <div class="card-body text-center">
                             <h5 class="card-title">Submarine Website</h5>
-                            <a href="#" class="btn btn-primary bg-info border-info text-black mx-1">Preview</a>
-                            <a href="#" class="btn btn-primary bg-white border-info text-info mx-1">Visit site</a>
+                            <a href="#" class="btn bg-info border-info text-black mx-1">Preview</a>
+                            <a href="#" class="btn bg-white border-info text-info mx-1">Visit site</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <!-- form -->
+        <div class="container-fluid bg-info">
+            <div class="row text-center p-3">
+                <div class="col-12">
+                    <h3>WANT AN OFFER?</h3>
+                </div>
             </div>
+            <!-- form -->
+            <form class="row g-3">
+                <div class="col-6">
+                    <label for="inputFirstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="inputFirstName"
+                        placeholder="Enter your first name..." />
+                </div>
+                <div class="col-6">
+                    <label for="inputLastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Enter your last name..." />
+                </div>
+                <div class="col-6">
+                    <label for="inputEmail4" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com" />
+                </div>
+                <div class="col-6">
+                    <label for="inputHoursRequested" class="form-label">Hours requested</label>
+                    <input type="text" class="form-control" id="inputHoursRequested" placeholder="Hours requested..." />
+                </div>
+                <div class="col-6">
+                    <label for="inputTypeofwork" class="form-label">Type of work</label>
+                    <select id="inputTypeofwork" class="form-select">
+                        <option selected="">Select type of work...</option>
+                        <option>Backend Development</option>
+                        <option>Frontend Development</option>
+                        <option>Project Analysis</option>
+                    </select>
+                </div>
+
+                <div class="col-6">
+                    <label for="inputDiscountCode" class="form-label">Discount Code</label>
+                    <input type="text" class="form-control" id="inputDiscountCode" />
+                </div>
+
+                <div class="col-12">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <input type="text" class="form-control" id="inputMessage"
+                        placeholder="Specify your work commission..." style="" />
+                </div>
+
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-warning">Send</button>
+                </div>
+            </form>
+
         </div>
 
     </main>
